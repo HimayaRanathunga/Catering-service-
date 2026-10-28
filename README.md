@@ -52,14 +52,7 @@ All visible text lives in `src/i18n/en.json` and `src/i18n/en.extra.json` (the e
 
 ## Photo credits
 
-Event and rental photos belong to Sha Catering Service. Some dish photos in `public/photos/dishes/` come from Wikimedia Commons under Creative Commons licenses (CC BY-SA 3.0/4.0, CC0). Credit the original authors if you publish the site publicly:
-
-- `kiribath.jpg`: "Kiribath (milk rice)"
-- `chicken.jpg`: "Sri lankan chicken curry"
-- `fish.jpg`: "Fish curry in Nuwara Eliya"
-- `cutlet.jpg`: "Fish cutlets"
-- `watalappan.jpg`: "Watalappan-Sri Lanka"
-- `kavum.jpg`: "Konda Kavum 02"
+Event and rental photos belong to Sha Catering Service. Some dish photos in `public/photos/dishes/` come from Wikimedia Commons under Creative Commons licenses (CC BY-SA 3.0/4.0, CC0). Credit the original authors if you publish the site publicly
 
 ## License
 
