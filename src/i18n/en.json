@@ -1,0 +1,46 @@
+{
+  "brand": "Sha Catering Service",
+  "place": "Bandarawela",
+  "nav": { "home": "Home", "services": "Services", "gallery": "Gallery", "contact": "Contact" },
+  "cta": { "quote": "Get a Quote", "whatsapp": "Chat on WhatsApp", "call": "Call Us", "viewServices": "Our Services" },
+  "hero": {
+    "eyebrow": "Catering · Events · Rentals",
+    "title": "Good food for every celebration",
+    "text": "From weddings to family gatherings, we cook, organize and set up everything, so you can enjoy your day."
+  },
+  "services": {
+    "title": "What we do",
+    "intro": "One team for the food, the setup and everything in between.",
+    "catering": { "title": "Catering", "text": "Fresh, home-style Sri Lankan food for weddings, poya days, birthdays, almsgiving and office events. Any size, any menu." },
+    "party": { "title": "Party & Event Organizing", "text": "Planning, decorations, seating and service on the day. Tell us the idea and we take care of the rest." },
+    "rental": { "title": "Rentals for Big Events", "text": "Chairs, tables, tents, cooking and serving equipment, hired out for your function at fair prices." },
+    "rentalList": ["Chairs & tables", "Tents & canopies", "Large cooking pots & burners", "Serving sets & cutlery", "Decoration items", "Sound & lighting (on request)"]
+  },
+  "why": {
+    "title": "Why people choose us",
+    "items": [
+      { "t": "Taste you can trust", "d": "Cooked fresh on the day with quality ingredients." },
+      { "t": "Fair prices", "d": "Clear quotes with no surprise charges." },
+      { "t": "On time, every time", "d": "We arrive early, set up properly and clean up after." },
+      { "t": "Local and familiar", "d": "Serving Bandarawela and nearby areas for years." }
+    ]
+  },
+  "gallery": { "title": "Our work", "intro": "A few moments from events we have served.", "more": "See all photos" },
+  "testimonials": {
+    "title": "Kind words",
+    "items": [
+      { "q": "The food was wonderful and everything was ready before the guests arrived.", "n": "Wedding client" },
+      { "q": "We rented chairs and tents for our function. Great service and fair price.", "n": "Family event" }
+    ]
+  },
+  "contact": {
+    "title": "Plan your event with us",
+    "intro": "Send a few details and we will reply with a quote. WhatsApp is the fastest way.",
+    "name": "Your name", "phone": "Phone number", "event": "Type of event", "date": "Event date", "guests": "Number of guests", "message": "Anything else?",
+    "send": "Send on WhatsApp",
+    "events": ["Wedding", "Birthday", "Almsgiving / Religious", "Office / Corporate", "Rentals only", "Other"],
+    "address": "Address", "addressText": "Bandarawela, Sri Lanka", "reach": "Reach us"
+  },
+  "wa": { "hello": "Hello Sha Catering! I would like to know more about your services.", "float": "Chat with us" },
+  "footer": { "tag": "Catering, events and rentals in Bandarawela.", "rights": "All rights reserved." }
+}

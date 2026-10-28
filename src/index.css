@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ink: var(--c-ink);
+  --color-coal: var(--c-coal);
+  --color-line: var(--c-line);
+  --color-gold: var(--c-gold);
+  --color-gold-soft: var(--c-gold-soft);
+  --color-cream: var(--c-cream);
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-serif: "Barlow Condensed", Impact, sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+  --c-ink: #092c2d;
+  --c-coal: #0d3b3c;
+  --c-line: #1e4a4b;
+  --c-gold: #c6ec32;
+  --c-gold-soft: #d5f34b;
+  --c-cream: #f3f1e8;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --c-ink: #f3f1e8;
+  --c-coal: #ffffff;
+  --c-line: #d3d6c8;
+  --c-gold: #4d6a00;
+  --c-gold-soft: #3d5400;
+  --c-cream: #092c2d;
+}
+
+h1, h2, h3, .font-serif { text-transform: uppercase; letter-spacing: -0.01em; }
+h1, h2 { font-weight: 700; }
+blockquote .font-serif, p.font-serif { text-transform: none; }
+
+html { scroll-behavior: smooth; }
+body {
+  background: var(--c-ink);
+  color: var(--c-cream);
+  transition: background-color .25s ease, color .25s ease;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes wa-ring {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, .45); }
+  70% { box-shadow: 0 0 0 16px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+.wa-pulse { animation: wa-ring 2.8s ease-out infinite; }
+
+.reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
+.reveal.in { opacity: 1; transform: none; }
+@keyframes kenburns { from { transform: scale(1); } to { transform: scale(1.1); } }
+.kenburns { animation: kenburns 8s ease-out forwards; }
+@keyframes marquee { to { transform: translateX(-50%); } }
+.marquee { animation: marquee 35s linear infinite; }
+@keyframes page-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.page-in { animation: page-in .45s ease both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .kenburns, .marquee, .page-in { animation: none; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .wa-pulse { animation: none; }
+}
+
+@keyframes tile-in { from { opacity: 0; transform: translateY(24px) scale(.96); } to { opacity: 1; transform: none; } }
+.tile-in { animation: tile-in .6s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes lb-in { from { opacity: 0; transform: scale(.94); } to { opacity: 1; transform: none; } }
+.lb-in { animation: lb-in .35s ease both; }
+@media (prefers-reduced-motion: reduce) { .tile-in, .lb-in { animation: none; } }
+
+@keyframes hero-in { from { opacity: 0; transform: translateY(32px); filter: blur(6px); } to { opacity: 1; transform: none; filter: none; } }
+.hero-in { animation: hero-in .9s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(8px); } }
+.bob { animation: bob 1.8s ease-in-out infinite; }
+@keyframes shine { from { transform: translateX(-120%) skewX(-20deg); } to { transform: translateX(260%) skewX(-20deg); } }
+.shine { position: relative; overflow: hidden; }
+.shine::after { content: ""; position: absolute; inset: 0 auto 0 0; width: 40%; background: linear-gradient(90deg, transparent, rgba(255,255,255,.55), transparent); transform: translateX(-120%) skewX(-20deg); }
+.shine:hover::after { animation: shine .9s ease; }
+@keyframes glow { 0%, 100% { box-shadow: 0 0 0 0 transparent; } 50% { box-shadow: 0 0 60px 0 color-mix(in srgb, var(--c-gold) 28%, transparent); } }
+.glow { animation: glow 4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .hero-in, .bob, .glow, .shine:hover::after { animation: none; } }

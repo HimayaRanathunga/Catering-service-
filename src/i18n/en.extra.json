@@ -1,0 +1,264 @@
+{
+  "nav": {
+    "home": "Home",
+    "rentals": "Rentals",
+    "menu": "Menu",
+    "services": "Events",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "process": "Process"
+  },
+  "cta": {
+    "quote": "Get a Quote",
+    "whatsapp": "Chat on WhatsApp",
+    "call": "Call Us",
+    "viewServices": "Our Events",
+    "viewRentals": "Browse Rentals",
+    "viewMenu": "See Menu & Packages",
+    "addQuote": "Add to quote",
+    "added": "Added",
+    "remove": "Remove",
+    "howItWorks": "How it works"
+  },
+  "hero": {
+    "eyebrow": "Event Rentals · Catering · Bandarawela",
+    "title": "Set the room. We handle the rest.",
+    "text": "Chairs, tents, stage, sound and decor on hire, with fresh Sri Lankan catering to match. Weddings, concerts, award nights, graduations, launches and more."
+  },
+  "stats": {
+    "events": "Events served",
+    "guests": "Guests fed",
+    "years": "Years of service"
+  },
+  "events": {
+    "title": "Events we cover",
+    "intro": "Big or small, we set up, cook and serve so you can focus on your guests.",
+    "items": {
+      "wedding": "Weddings",
+      "concert": "Music Concerts",
+      "award": "Award Ceremonies",
+      "graduation": "Graduations",
+      "launch": "Product Launches",
+      "birthday": "Birthdays & Parties",
+      "religious": "Almsgiving & Religious",
+      "corporate": "Corporate Events"
+    },
+    "all": "…and every other kind of event. Ask us!"
+  },
+  "rentals": {
+    "title": "Event Rentals",
+    "intro": "Hire what you need for your function. Tell us the date and quantities and we will confirm availability and a price.",
+    "homeTitle": "Rent everything for your event",
+    "cats": {
+      "chairs": "Chairs & Tables",
+      "tents": "Tents & Canopies",
+      "stage": "Stage & Backdrops",
+      "sound": "Sound & Lighting",
+      "cooking": "Cooking & Buffet Equipment",
+      "decor": "Decoration",
+      "crockery": "Crockery & Cutlery"
+    },
+    "items": {
+      "chairs": "Chairs",
+      "tables": "Tables",
+      "sofas": "Sofas & lounge sets",
+      "tents": "Tents",
+      "canopies": "Canopies",
+      "flooring": "Flooring & carpets",
+      "stage": "Stage",
+      "backdrop": "Backdrops",
+      "podium": "Podium",
+      "sound": "Sound system",
+      "lights": "Lighting",
+      "projector": "Projector & screen",
+      "pots": "Large cooking pots",
+      "burners": "Burners & gas",
+      "buffet": "Buffet counters & warmers",
+      "flowers": "Flower arrangements",
+      "drapes": "Drapes & ceiling décor",
+      "poruwa": "Poruwa & wedding sets",
+      "plates": "Plates & bowls",
+      "cutlery": "Cutlery",
+      "glasses": "Glasses & jugs"
+    }
+  },
+  "menu": {
+    "title": "Menu & Packages",
+    "intro": "Fresh Sri Lankan food cooked for your event. Packages are a guide; we can adjust any menu.",
+    "packagesTitle": "Packages",
+    "dishesTitle": "Popular dishes",
+    "contactPrice": "Contact us for price",
+    "choose": "Choose package",
+    "cats": {
+      "rice": "Rice",
+      "curries": "Curries",
+      "shorteats": "Short eats & finger food",
+      "desserts": "Desserts"
+    },
+    "dishes": {
+      "rice": "White rice",
+      "yellow": "Yellow rice",
+      "kiribath": "Kiribath",
+      "fried": "Fried rice",
+      "chicken": "Chicken curry",
+      "fish": "Fish curry",
+      "dhal": "Dhal curry",
+      "veg": "Mixed vegetable curries",
+      "cutlet": "Fish cutlets",
+      "rolls": "Egg rolls",
+      "patties": "Patties",
+      "sandwich": "Sandwiches",
+      "watalappan": "Watalappan",
+      "curd": "Curd & treacle",
+      "pudding": "Pudding",
+      "kavum": "Kavum & kokis"
+    },
+    "packages": {
+      "silver": {
+        "n": "Silver",
+        "d": "Rice, 2 curries, dhal, vegetable, salad, papadam",
+        "tag": "Everyday functions"
+      },
+      "gold": {
+        "n": "Gold",
+        "d": "Rice, chicken or fish, 3 vegetable curries, dhal, salad, dessert",
+        "tag": "Most popular"
+      },
+      "premium": {
+        "n": "Premium Buffet",
+        "d": "Full buffet with multiple mains, live counters, desserts and service staff",
+        "tag": "Weddings & galas"
+      },
+      "finger": {
+        "n": "Finger Food",
+        "d": "Cutlets, rolls, patties and sandwiches for launches and receptions",
+        "tag": "Launches & concerts"
+      },
+      "tea": {
+        "n": "Tea Time",
+        "d": "Sweets, savouries, tea and coffee for meetings and ceremonies",
+        "tag": "Ceremonies"
+      }
+    }
+  },
+  "quote": {
+    "title": "Build your quote",
+    "intro": "Pick what you need and send it to us on WhatsApp. We will reply with availability and a price.",
+    "s1": "Your event",
+    "s2": "Catering",
+    "s3": "Rentals",
+    "s4": "Your details",
+    "eventType": "Event type",
+    "date": "Event date",
+    "guests": "Number of guests",
+    "area": "Venue / town",
+    "package": "Catering package",
+    "noCatering": "No catering (rentals only)",
+    "qty": "Qty",
+    "name": "Your name",
+    "phone": "Phone number",
+    "message": "Anything else?",
+    "summary": "Your selection",
+    "empty": "No rentals added yet.",
+    "send": "Send quote request on WhatsApp",
+    "note": "No payment now. We confirm availability and price on WhatsApp.",
+    "cart": "Quote",
+    "sentIntro": "Hello Sha Catering! I would like a quote.",
+    "lblEvent": "Event",
+    "lblDate": "Date",
+    "lblGuests": "Guests",
+    "lblArea": "Venue",
+    "lblPackage": "Catering",
+    "lblRentals": "Rentals",
+    "lblName": "Name",
+    "lblPhone": "Phone",
+    "lblNote": "Notes"
+  },
+  "faq": {
+    "title": "Common questions",
+    "items": [
+      {
+        "q": "How early should I book?",
+        "a": "As early as you can. For weddings and busy seasons, 3–4 weeks ahead is best. We will always try to help with short notice."
+      },
+      {
+        "q": "Do you deliver and set up rentals?",
+        "a": "Yes. We deliver, set up and collect after the event within Bandarawela and nearby towns."
+      },
+      {
+        "q": "Can the menu be changed?",
+        "a": "Yes. Packages are a starting point. Tell us your guests, taste and budget and we will adjust."
+      },
+      {
+        "q": "How do I pay?",
+        "a": "We confirm the quote on WhatsApp and take a small advance to reserve your date. The balance is settled after the event."
+      }
+    ]
+  },
+  "areas": {
+    "title": "Where we serve",
+    "intro": "Based in Bandarawela, serving the Badulla district and beyond."
+  },
+  "gallery": {
+    "title": "Our work",
+    "intro": "A few moments from events we have served.",
+    "more": "See all photos",
+    "all": "All",
+    "food": "Food",
+    "weddings": "Weddings",
+    "events": "Events",
+    "rentals": "Rentals"
+  },
+  "cta2": {
+    "title": "Planning an event?",
+    "text": "Tell us the date and what you need. We will take it from there."
+  },
+  "footer": {
+    "tag": "Event rentals, catering and party organizing in Bandarawela.",
+    "rights": "All rights reserved.",
+    "follow": "Follow us on Facebook"
+  },
+  "approach": {
+    "eyebrow": "Our approach",
+    "title": "Well-chosen pieces make a room look set.",
+    "text": "A good event does not need a complicated plan. Tell us the occasion and the guest count; we suggest the right tables, seating, serving gear and food, deliver it on time, and collect it after. You enjoy the day."
+  },
+  "kit": {
+    "eyebrow": "The rental kit",
+    "title": "Four ways we dress your event",
+    "serve": {
+      "title": "Serve",
+      "text": "Buffet counters, warmers, large pots, burners and serving sets for feeding a crowd."
+    },
+    "set": {
+      "title": "Set",
+      "text": "Plates, cutlery, drapes, flowers and decor that make every table look finished."
+    },
+    "pour": {
+      "title": "Pour",
+      "text": "Glasses, jugs and beverage essentials for tea, juice and the bar."
+    },
+    "shape": {
+      "title": "Shape",
+      "text": "Tables, chairs, tents, stage and flooring that give the space its form."
+    }
+  },
+  "process": {
+    "eyebrow": "Planning process",
+    "title": "Three simple steps",
+    "steps": [
+      {
+        "t": "Share the details",
+        "d": "Send the date, venue, guest count and the type of event."
+      },
+      {
+        "t": "Shape your kit",
+        "d": "We put together the rental list and menu, and send a clear quote."
+      },
+      {
+        "t": "Confirm the plan",
+        "d": "Agree the delivery and collection plan. We arrive early and set up."
+      }
+    ]
+  }
+}
